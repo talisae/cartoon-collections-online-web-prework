@@ -1,4 +1,10 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(name)
+  array = name.split( , )
+  newArray = []
+  
+  name.each_with_index { |name, index|
+  newArray[name] = index + 1
+}# code an argument here
   # Your code here
 end
 
